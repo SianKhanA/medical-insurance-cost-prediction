@@ -12,3 +12,6 @@ This project predicts individual medical insurance costs using patient data. I i
 ## Technologies Used
 * Python, Pandas, Scikit-Learn
 * Matplotlib & Seaborn for Residual Analysis
+
+## Insight
+* My analysis revealed that (BMI * smoker_yes) was the strongest predictor of cost. I also performed a residual analysis, which showed the model is highly accurate for low-to-mid range costs but faces heteroscedasticity at the higher cost tiers ($30k+).
